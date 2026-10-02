@@ -18,5 +18,13 @@ public class PersonCard {
         int ageNextYear = age + 1;
         System.out.println("Nästa år är " + firstName + " " + ageNextYear + " år. ");
 
+        // Del 3 – Förbättra variabelnamnen
+        String carBrand = "Volvo";
+        int modelYear = 2022;
+        int price = 185000;
+        boolean isElectric = true;
+
+        System.out.println("Bil: " + carBrand + ", År: " + modelYear + ", Pris: " + price + " kr, Elbil: " + isElectric);
+
     }
 }
